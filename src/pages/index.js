@@ -13,24 +13,6 @@ const links = [
     description:
       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
   },
-  {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-    description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-  },
 ]
 
 const samplePageLinks = [
@@ -83,10 +65,10 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Welcome to <b>Adobe Sign</b>
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
+        <b>You have received 3 New Documents</b>{" "}
         {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
